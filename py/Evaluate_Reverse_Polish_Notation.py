@@ -1,5 +1,4 @@
 ## https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=problem-list-v2&envId=math
-import operator
 from typing import List
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
