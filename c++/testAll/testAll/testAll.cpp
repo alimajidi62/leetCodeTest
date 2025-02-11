@@ -3,8 +3,11 @@
 
 #include <iostream>
 #include "ClearDigits.h"
+#include "RecursionClass.h"
 int main()
 {
-    ClearDigits s;
-    cout<<s.clearDigits("a1ss2");
+    //ClearDigits s;
+    //cout<<s.clearDigits("a1ss2");
+    RecursionClass s;
+    s.printN(10);
 }
