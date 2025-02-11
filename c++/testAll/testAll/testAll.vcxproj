@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,12 +132,14 @@
     <ClCompile Include="ClearDigits.cpp" />
     <ClCompile Include="FibonacciClass.cpp" />
     <ClCompile Include="RecursionClass.cpp" />
+    <ClCompile Include="Remove_all_subString.cpp" />
     <ClCompile Include="testAll.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h" />
     <ClInclude Include="FibonacciClass.h" />
     <ClInclude Include="RecursionClass.h" />
+    <ClInclude Include="Remove_all_subString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
