@@ -129,11 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClearDigits.cpp" />
+    <ClCompile Include="FibonacciClass.cpp" />
     <ClCompile Include="RecursionClass.cpp" />
     <ClCompile Include="testAll.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h" />
+    <ClInclude Include="FibonacciClass.h" />
     <ClInclude Include="RecursionClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

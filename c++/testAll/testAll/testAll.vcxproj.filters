@@ -24,12 +24,18 @@
     <ClCompile Include="RecursionClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FibonacciClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RecursionClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FibonacciClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
