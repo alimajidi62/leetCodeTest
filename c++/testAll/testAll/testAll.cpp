@@ -5,6 +5,7 @@
 #include "ClearDigits.h"
 #include "RecursionClass.h"
 #include "FibonacciClass.h"
+#include "MinimumOperationstoExceedThresholdValueII.h"
 int main()
 {
     //ClearDigits s;
@@ -13,4 +14,8 @@ int main()
     s.printN(10);*/
     FibonacciClass s;
     s.PrintFibonacci(10, 0, 1);
+    MinimumOperationstoExceedThresholdValueII sM;
+    vector<int> Input = { 999999999,999999999,999999999 };
+    sM.minOperation(Input, 1000000000);
+
 }

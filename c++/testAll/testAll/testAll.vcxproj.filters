@@ -39,6 +39,9 @@
     <ClCompile Include="MaxSumofaPairWithEqualSumofDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumOperationstoExceedThresholdValueII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h">
@@ -48,6 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FibonacciClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Remove_all_subString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimumOperationstoExceedThresholdValueII.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

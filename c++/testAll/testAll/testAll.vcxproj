@@ -133,6 +133,7 @@
     <ClCompile Include="FibonacciClass.cpp" />
     <ClCompile Include="MaxSumofaPairWithEqualSumofDigits.cpp" />
     <ClCompile Include="Longest_Common_Subsequence.cpp" />
+    <ClCompile Include="MinimumOperationstoExceedThresholdValueII.cpp" />
     <ClCompile Include="RecursionClass.cpp" />
     <ClCompile Include="Remove_all_subString.cpp" />
     <ClCompile Include="testAll.cpp" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="ClearDigits.h" />
     <ClInclude Include="FibonacciClass.h" />
+    <ClInclude Include="MinimumOperationstoExceedThresholdValueII.h" />
     <ClInclude Include="RecursionClass.h" />
     <ClInclude Include="Remove_all_subString.h" />
   </ItemGroup>
