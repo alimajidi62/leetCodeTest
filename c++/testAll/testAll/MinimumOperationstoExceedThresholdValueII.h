@@ -8,12 +8,13 @@ public:
 	int minOperation(vector<int>& nums, int k)
 	{
 		if (nums.size() < 2) return 0;
-		multiset<double> num(nums.begin(), nums.end());
-		double result = 0;
+		multiset<int64_t > num(nums.begin(), nums.end());
+		int64_t  result = 0;
 		auto it = num.begin();
 		std::advance(it, 0);
-		double minmum = *it;
-		double a;double b;
+		int64_t  minmum = *it;
+		int64_t  a;
+		int64_t  b;
 		while (minmum <  k)
 		{
 			auto it = num.begin();
