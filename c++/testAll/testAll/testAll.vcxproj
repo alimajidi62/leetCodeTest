@@ -135,6 +135,7 @@
     <ClCompile Include="Longest_Common_Subsequence.cpp" />
     <ClCompile Include="MinimumOperationstoExceedThresholdValueII.cpp" />
     <ClCompile Include="ProductoftheLastKNumbers.cpp" />
+    <ClCompile Include="PunishmentNumber.cpp" />
     <ClCompile Include="RecursionClass.cpp" />
     <ClCompile Include="Remove_all_subString.cpp" />
     <ClCompile Include="testAll.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="FibonacciClass.h" />
     <ClInclude Include="MinimumOperationstoExceedThresholdValueII.h" />
     <ClInclude Include="ProductoftheLastKNumbers.h" />
+    <ClInclude Include="PunishmentNumber.h" />
     <ClInclude Include="RecursionClass.h" />
     <ClInclude Include="Remove_all_subString.h" />
   </ItemGroup>
