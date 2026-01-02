@@ -134,6 +134,7 @@
     <ClCompile Include="MaxSumofaPairWithEqualSumofDigits.cpp" />
     <ClCompile Include="Longest_Common_Subsequence.cpp" />
     <ClCompile Include="MinimumOperationstoExceedThresholdValueII.cpp" />
+    <ClCompile Include="N_Repeated_Element.cpp" />
     <ClCompile Include="ProductoftheLastKNumbers.cpp" />
     <ClCompile Include="PunishmentNumber.cpp" />
     <ClCompile Include="RecursionClass.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="ClearDigits.h" />
     <ClInclude Include="FibonacciClass.h" />
     <ClInclude Include="MinimumOperationstoExceedThresholdValueII.h" />
+    <ClInclude Include="N_Repeated_Element.h" />
     <ClInclude Include="ProductoftheLastKNumbers.h" />
     <ClInclude Include="PunishmentNumber.h" />
     <ClInclude Include="RecursionClass.h" />

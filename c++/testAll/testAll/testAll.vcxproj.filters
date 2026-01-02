@@ -48,6 +48,9 @@
     <ClCompile Include="PunishmentNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="N_Repeated_Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PunishmentNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N_Repeated_Element.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
