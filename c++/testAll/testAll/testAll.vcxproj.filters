@@ -51,6 +51,9 @@
     <ClCompile Include="N_Repeated_Element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClearDigits.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="N_Repeated_Element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isPalindrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
