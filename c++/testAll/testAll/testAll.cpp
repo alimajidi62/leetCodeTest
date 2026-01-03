@@ -6,16 +6,24 @@
 #include "RecursionClass.h"
 #include "FibonacciClass.h"
 #include "MinimumOperationstoExceedThresholdValueII.h"
+#include <string>
+using namespace std;
+bool Function_isPalindrome(int x) {
+
+    string input = to_string(x);
+    auto n = input.size();
+
+    for (int i = 0;i < n/2;i++)
+    {
+        auto l1 = input[i];
+        auto l2 = input[n - i-1];
+        if (input[i]!= input[n - i-1]) return false;
+    }
+    return true;
+
+}
 int main()
 {
-    //ClearDigits s;
-    //cout<<s.clearDigits("a1ss2");
-    /*RecursionClass s;
-    s.printN(10);*/
-    FibonacciClass s;
-    s.PrintFibonacci(10, 0, 1);
-    MinimumOperationstoExceedThresholdValueII sM;
-    vector<int> Input = { 999999999,999999999,999999999 };
-    sM.minOperation(Input, 1000000000);
+    auto ss=Function_isPalindrome(12321);
 
 }
