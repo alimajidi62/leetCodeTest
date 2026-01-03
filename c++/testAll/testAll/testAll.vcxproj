@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="ClearDigits.cpp" />
     <ClCompile Include="FibonacciClass.cpp" />
+    <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="MaxSumofaPairWithEqualSumofDigits.cpp" />
     <ClCompile Include="Longest_Common_Subsequence.cpp" />
     <ClCompile Include="MinimumOperationstoExceedThresholdValueII.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="ClearDigits.h" />
     <ClInclude Include="FibonacciClass.h" />
+    <ClInclude Include="isPalindrome.h" />
     <ClInclude Include="MinimumOperationstoExceedThresholdValueII.h" />
     <ClInclude Include="N_Repeated_Element.h" />
     <ClInclude Include="ProductoftheLastKNumbers.h" />
