@@ -54,6 +54,25 @@ int sumFourDivisors1(vector<int>& nums) {
     return allsum;
 
 }
+int sumFourDivisors(vector<int>& nums) {
+        int allsum = 0;
+for (auto num : nums)
+{
+    int count = 0;
+    int sum = 1 + num;
+    for (int i = 2;i <= num / 2;i++)
+    {
+        if (num % i == 0)
+        {
+            count++;
+            sum = sum + i;
+        }
+         if (count > 2) break;
+    }
+    if (count == 2) allsum= allsum+ sum;
+}
+return allsum;
+    }
 int main()
 {
     auto ss=Function_isPalindrome(12321);
