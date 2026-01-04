@@ -75,6 +75,8 @@ return allsum;
     }
 int main()
 {
-    auto ss=Function_isPalindrome(12321);
+    //auto ss=Function_isPalindrome(12321);
+    vector<int> m_input = { 21,2,7};
+    auto s=sumFourDivisors(m_input);
 
 }
