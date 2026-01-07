@@ -7,6 +7,7 @@
 #include "FibonacciClass.h"
 #include "MinimumOperationstoExceedThresholdValueII.h"
 #include <string>
+#include <algorithm>
 using namespace std;
 bool Function_isPalindrome(int x) {
 
