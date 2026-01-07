@@ -74,10 +74,20 @@ for (auto num : nums)
 }
 return allsum;
     }
+int arrayPairSum(vector<int>& nums) {
+
+    std::sort(nums.begin(), nums.end());
+	int sum = 0;
+	for (int i = 0; i < nums.size(); i = i + 2)sum += nums[i];
+    return sum;
+
+}
 int main()
 {
     //auto ss=Function_isPalindrome(12321);
-    vector<int> m_input = { 21,2,7};
+    vector<int> m_input = { 1,4,3,2 };
+    
     auto s=sumFourDivisors(m_input);
 
 }
+
